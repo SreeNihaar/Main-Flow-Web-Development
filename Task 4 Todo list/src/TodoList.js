@@ -39,6 +39,11 @@ const ToDoList = () => {
       <ul>
         {tasks.map((task, index) => (
           <li key={index} className={task.completed ? 'completed' : ''}>
+            <input
+              type="checkbox"
+              checked={task.completed}
+              onChange={() => toggleTaskCompletion(index)}
+            />
             <span onClick={() => toggleTaskCompletion(index)}>{task.text}</span>
             <button onClick={() => deleteTask(index)}>Delete</button>
           </li>

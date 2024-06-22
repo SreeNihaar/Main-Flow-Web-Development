@@ -26,6 +26,7 @@ This repository contains all the assignments and projects I have completed durin
 3. **Week 3**: Interactive Elements with JavaScript
 4. **Week 4**: To-Do List App
 5. **Week 5**: Simple Calculator
+6. **Week 6**: Image Gallery
 
 Each assignment folder contains the code and any necessary documentation.
 

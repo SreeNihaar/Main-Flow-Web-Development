@@ -1,0 +1,15 @@
+.image-item {
+    cursor: pointer;
+    transition: transform 1.2s ease;
+}
+  
+.image-item img {
+    width: 100%;
+    height: 30vh;
+    display: block;
+}
+
+.image-item:hover{
+    transform: scale(1.05);
+}
+  
